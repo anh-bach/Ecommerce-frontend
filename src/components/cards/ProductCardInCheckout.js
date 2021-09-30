@@ -81,7 +81,7 @@ const ProductCardInCheckout = ({ product }) => {
         cart = JSON.parse(localStorage.getItem('cart'));
       }
 
-      //update color
+      //remove product from cart
       if (cart.length > 0) {
         cart.forEach((item, index) => {
           if (item._id === product._id) {
@@ -90,9 +90,9 @@ const ProductCardInCheckout = ({ product }) => {
         });
       }
 
-      //save to localStorage
+      //save cart to localStorage
       localStorage.setItem('cart', JSON.stringify(cart));
-      //save redux store
+      //save cart to redux store
       dispatch({
         type: ADD_TO_CART,
         payload: cart,
