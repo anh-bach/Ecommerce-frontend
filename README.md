@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+[![Ecommerce Front-end CI](https://github.com/iamanh1990/Ecommerce-frontend/actions/workflows/main.yml/badge.svg)](https://github.com/iamanh1990/Ecommerce-frontend/actions/workflows/main.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
