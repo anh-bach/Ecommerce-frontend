@@ -220,7 +220,7 @@ const Checkout = ({ history }) => {
               onClick={emptyCart}
               disabled={!products.length}
             >
-              Empty Card
+              Empty Cart
             </button>
           </div>
         </div>
