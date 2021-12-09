@@ -1,71 +1,43 @@
-# Getting Started with Create React App
-[![Ecommerce Front-end CI](https://github.com/iamanh1990/Ecommerce-frontend/actions/workflows/main.yml/badge.svg)](https://github.com/iamanh1990/Ecommerce-frontend/actions/workflows/main.yml)
+# E-commerce Web Application with MERN Stack.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my little web application to practice React, Node, Express and MongoDB in the last summer. This simple application has authentication implemented from firebase with register, login (with Google and Facebook pop-up), forget-password, reset-password functionality.
 
-## Available Scripts
+## Front-end:
 
-In the project directory, you can run:
+- React and Redux.
+- Bootstrap and Ant Design.
+- React Toastify package to make flexible notification.
 
-### `yarn start`
+## Back-end:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node and Express to build server.
+- Firebase authentication.
+- MongoDB and Mongoose for database.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Deployment:
 
-### `yarn test`
+The app is deployed on Digital Ocean. You can check it out at: https://iamanh1990.github.io/Ecommerce-frontend/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can register for a new user account and start exploring the app. There is admin dashboard for admin and normal dashboard for subscriber.
 
-### `yarn build`
+Stripe Checkout is implemented in the app. Check it out by using the following fake card number:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+card-number: 4242 4242 4242 4242
+CVC: Any 3 digits
+DATE: Any future date
+ZIP: 11111
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can try to login as admin with the following info to test CRUD operations:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+email: quocanh1990bach@gmail
+password: 123456789
+```
 
-### `yarn eject`
+## Screenshot:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[![Screenshot-2021-12-09-at-15-55-14-E-commerce-website.png](https://i.postimg.cc/nLYKrnmT/Screenshot-2021-12-09-at-15-55-14-E-commerce-website.png)](https://postimg.cc/t1JnmQ2V)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Note: The application is still not totally responsive.
